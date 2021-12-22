@@ -1,4 +1,8 @@
-# Non propagation of native options when running command in command
+# Not a good example. Prefer to extract the logic of the command into a service instead of calling the command from another one.
+
+---
+
+## Non propagation of native options when running command in command
 
 There are 2 commands `app:foo` and `app:bar`.
 
